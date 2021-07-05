@@ -3,9 +3,11 @@
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
+    background: #CAACAC;
 }
 .header_logo_img {
     width: 120px;
+    margin-left: 50px;
 }
 .header_list {
     display: flex;
@@ -15,7 +17,7 @@
 }
 .header_link {
     text-decoration: none;
-    color: #868686;
+    color: #676767;
     font-family: "Lato";
     font-size: 14px;
     font-weight: 400;
