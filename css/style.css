@@ -1,0 +1,30 @@
+.header_container {
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo_img {
+    width: 120px;
+}
+.header_list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.header_link {
+    text-decoration: none;
+    color: #868686;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 2px;
+}
+
+.header_link:hover {
+    color: #ffffff;
+    background: #ffbb42;
+}
