@@ -1,8 +1,12 @@
+body {
+    margin: 8px;
+}
 .header_container {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
     background: #009aff;
+    width: 100%;
 }
 .header_logo_img {
     width: 120px;
