@@ -1,12 +1,21 @@
 body {
     margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .header_container {
+    position: sticky;
+    top: 0;
+    background: #009aff;
+    width: 100%;
+}
+.header_inner {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    background: #009aff;
-    width: 100%;
+    width: 1200px;
 }
 .header_logo_img {
     width: 120px;
@@ -34,4 +43,11 @@ body {
 .header_link:hover {
     color: #ffffff;
     background: #ffbb42;
+}
+.wrap {
+    margin: 7% auto;
+    width: 1200px;
+}
+#id {
+    margin-top: 7%;
 }
