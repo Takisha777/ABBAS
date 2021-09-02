@@ -15,7 +15,7 @@ body {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
 }
 .header_logo_img {
     width: 120px;
@@ -44,10 +44,14 @@ body {
     color: #ffffff;
     background: #ffbb42;
 }
+.phone_link {
+    text-decoration: none;
+}
 .wrap {
     margin: 7% auto;
     width: 1200px;
 }
-#id {
-    margin-top: 7%;
+.photo {
+    display: flex;
+    justify-content: space-evenly;
 }
