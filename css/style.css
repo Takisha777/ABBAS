@@ -1,5 +1,4 @@
 body {
-    margin: 8px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -48,10 +47,21 @@ body {
     text-decoration: none;
 }
 .wrap {
-    margin: 7% auto;
+    margin: 0% auto;
     width: 1200px;
 }
 .photo {
     display: flex;
     justify-content: space-evenly;
+}
+@media only screen
+and (min-device-width: 520px)
+and (max-device-width: 880px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    header_link { line-height: 1.4;
+        font-size: 8px;
+        }
+}
+@media header_link {
+
 }
